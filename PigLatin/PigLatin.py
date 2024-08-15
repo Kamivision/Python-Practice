@@ -5,7 +5,7 @@
 
 #take a sentence as input w/o capitalization or punctuation
 #english_sentence = "well that happened"
-english_sentence = input("Please enter a sentence with no capitaization or punctuation: ")
+english_sentence = input("Please enter a sentence with no capitalization or punctuation: ")
 
 
 def pig_latin():
@@ -28,6 +28,5 @@ def pig_latin():
 
     return new_sentence
     #output new sentence
-    print( + new_sentence)
-        
-print("The sentence in pig latin is " + pig_latin())
+      
+print("The sentence in pig latin is... " + pig_latin())
